@@ -204,6 +204,9 @@ section {
     padding: 5% !important;
 }
 
+#ecosystem.mobile .col-block.item-feature {
+    height: 680px !important;
+}
 
 #partners .logos {
     padding-top: 50px !important;
@@ -284,12 +287,18 @@ section {
 }
 
 .video-bg {
-  background-image: url(../gifs/product.gif) !important;
-  padding-bottom: 900px !important;
+  background-image: url(../images/mascot/UniLion\ -\ Mascot-Rocket.png) !important;
+  padding-bottom: 600px !important;
+  background-size: 80% !important;
 }
 
-.video-bg:not(.mobile) {
-    padding-bottom: 900px !important;
+.video-bg.mobile {
+    background-size: cover !important;
+}
+
+.btn-video {
+    top: 10% !important;
+    left: 15% !important;
 }
 
   

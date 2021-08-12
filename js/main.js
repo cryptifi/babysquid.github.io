@@ -110,7 +110,7 @@ Array.from(links).forEach(link => {
 
         var toggleButton = $('.header-menu-toggle'),
             nav = $('.header-nav-wrap'),
-            els = $('#footer, #home, #about, .site-logo, #platform, #lionomics, #partners, #ecosystem, #filler, #roadmap');
+            els = $('.video-bg, #footer, #home, #about, .site-logo, #platform, #lionomics, #partners, #ecosystem, #filler, #roadmap');
 
         toggleButton.on('click', function(event){
             event.preventDefault();
