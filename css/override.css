@@ -278,6 +278,7 @@ section {
 
 #roadmap.mobile .col-block {
     width: 100% !important;
+    height: 450px !important;
 }
 #roadmap.mobile .col-block:nth-child(1) {
     margin-right: auto !important;
