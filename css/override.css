@@ -302,7 +302,16 @@ section {
     left: 15% !important;
 }
 
-  
+#home.mobile .desktop-view {
+    display: none;
+}
+#home.mobile .shared-ownership {
+    font-weight: 600 !important;
+}
+#home:not(.mobile) .mobile-view {
+    display: none;
+}
+
 #about, #lionomics, #footer  {
   background-image: url(../images/background/blue_bg.jpg) !important;
 }
