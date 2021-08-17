@@ -208,6 +208,14 @@ section {
     height: 680px !important;
 }
 
+#lionomics.mobile .facts-box {
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 #partners .logos {
     padding-top: 50px !important;
     
