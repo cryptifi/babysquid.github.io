@@ -15,6 +15,9 @@ section {
 .home-content .home-content__main {
     text-align: center !important;
 }
+#home.mobile .home-content__main {
+    padding-bottom: 160px !important;
+}
 
 .header-nav-wrap:not(.mobile) .header-cta__btn {
     height: 4.2rem !important;
