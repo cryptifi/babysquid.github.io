@@ -16,7 +16,7 @@ section {
     text-align: center !important;
 }
 #home.mobile .home-content__main {
-    padding-bottom: 160px !important;
+    padding-bottom: 100px !important;
 }
 
 .header-nav-wrap:not(.mobile) .header-cta__btn {
