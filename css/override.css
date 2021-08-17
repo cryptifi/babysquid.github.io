@@ -389,8 +389,11 @@ header, #home {
 }
 
 .s-header .header-nav-wrap .header-whitepaper-btn {
-    background-color: #FDC270 !important;
-    border-color: #FDC270 !important;
+    background-color: transparent !important;
+    border-color: #49C5CD !important;
+}
+.s-header.sticky .header-nav-wrap:not(.mobile) .header-whitepaper-btn {
+    color: white !important;
 }
 .s-header .header-nav-wrap .header-whitepaper-btn:hover {
     background-color: #49C5CD !important;
