@@ -327,13 +327,21 @@ section {
 }
 
 .video-bg {
-  background-image: url(../images/mascot/UniLion\ -\ Mascot-Rocket.png) !important;
+  background-image: url(../images/mascot/video-bg.jpg) !important;
   padding-bottom: 600px !important;
   background-size: 80% !important;
 }
 
 .video-bg.mobile {
+    background-image: url(../images/mascot/video-sm.jpg) !important;
     background-size: cover !important;
+}
+
+#about-how .mobile .video-icon {
+    margin-left: 85px !important;
+    margin-top: 230px !important;
+    height: 70px !important;
+    width: 70px !important;
 }
 
 .btn-video {
